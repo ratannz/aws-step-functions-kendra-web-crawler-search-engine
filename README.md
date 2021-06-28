@@ -55,11 +55,7 @@ npm i -g aws-cdk
 * [Bootstrap your AWS account for CDK](https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html) if you haven't done so already
 
 ## Deploy
-Note: If you are running from AWS Cloud9, make sure to add a config file at ~/.aws/config in following format.
-
-[default]
-region=us-west-2
-output=json
+Note: If you are running from AWS Cloud9, make sure to add a config file at ~/.aws/config. Check https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html for format of the file. 
 
 This repository provides a utility script to build and deploy the sample.
 
