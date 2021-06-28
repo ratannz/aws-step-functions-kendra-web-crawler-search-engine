@@ -57,9 +57,9 @@ npm i -g aws-cdk
 ## Deploy
 Note: If you are running from AWS Cloud9, make sure to add a config file at ~/.aws/config in following format.
 
-`[default]
+[default]
 region=us-west-2
-output=json`
+output=json
 
 This repository provides a utility script to build and deploy the sample.
 
